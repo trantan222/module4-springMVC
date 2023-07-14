@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Title</title>
+</head>
+<body>
+<h1 style="text-align: center;color: chocolate">Information Detail Product</h1>
+<img src="![](../img/ip.png)">
+<img src="![](../img/iphone14prmaxpink.jpeg)">
+<img src="![](../img/iphone14promax.jpeg)">
+<form method="post" th:object="${product}"  novalidate="novalidate">
+    <div class="form-row">
+    <div class="form-group col-md-6">
+        <label >ID</label>
+        <input type="number" class="form-control" readonly  name="id" th:field="*{id}">
+    </div>
+    <div class="form-group col-md-6">
+        <label for="1">Name</label>
+        <input type="text" class="form-control"  readonly id="1" name="name" th:field="*{name}">
+    </div>
+    <div class="form-group col-md-6">
+        <label for="2">Cost</label>
+        <input type="number" class="form-control" readonly id="2" name="cost" th:field="*{cost}">
+    </div>
+    <div class="form-group col-md-6">
+        <label for="3">Decrisbe</label>
+        <input type="text" class="form-control" readonly id="3" name="describe" th:field="*{describe}">
+    </div>
+    <div class="form-group">
+        <label for="4">Producer</label>
+        <input type="text" class="form-control" readonly id="4" name="producer" th:field="*{producer}">
+    </div>
+    </div>
+    <a role="button" type="cancel" href="/" class="btn btn-danger">Quit View</a>
+</form>
+</body>
+</html>

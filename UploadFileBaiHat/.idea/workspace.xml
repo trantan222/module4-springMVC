@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e5ced7cc-95c1-46c2-bf9d-027ca58d54eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../FormYTe/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FormYTe/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FormYTe/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FormYTe/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FormYTe/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FormYTe/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FormYTe/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FormYTe/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FormYTe/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FormYTe/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FormYTe/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FormYTe/src/main/java/com/example/formyte/controller/KhaiBaoYTe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FormYTe/src/main/java/com/example/formyte/model/ToKhai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FormYTe/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FormYTe/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FormYTe/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FormYTe/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FormYTe/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/src/main/java/com/example/sudungthymeleafdequanlisanpham/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/src/main/java/com/example/sudungthymeleafdequanlisanpham/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/src/main/java/com/example/sudungthymeleafdequanlisanpham/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/src/main/java/com/example/sudungthymeleafdequanlisanpham/model/product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/src/main/java/com/example/sudungthymeleafdequanlisanpham/repo/ProductImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/src/main/java/com/example/sudungthymeleafdequanlisanpham/repo/RepoProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/src/main/java/com/example/sudungthymeleafdequanlisanpham/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/src/main/java/com/example/sudungthymeleafdequanlisanpham/service/ServiceProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/src/main/webapp/WEB-INF/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/src/main/webapp/WEB-INF/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/src/main/webapp/WEB-INF/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/src/main/webapp/WEB-INF/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/src/main/webapp/img/14prm.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/src/main/webapp/img/14prmaxgold.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/src/main/webapp/img/ip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/src/main/webapp/img/iphone14prmaxpink.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuDungThymeleafDeQuanLiSanPham/src/main/webapp/img/iphone14promax.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/src/main/java/com/example/uploadbaihat/controller/BaiHatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/src/main/java/com/example/uploadbaihat/model/BaiHat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/src/main/webapp/WEB-INF/views/upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/src/main/webapp/WEB-INF/views/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/uploadfilebaihat/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/uploadfilebaihat/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/uploadfilebaihat/controller/BaiHatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/uploadfilebaihat/model/BaiHat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/upload_file.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/upload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/controller/SettingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/model/Setting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/WEB-INF/views/setting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/WEB-INF/views/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SYsqi0JqCoDvwV3GlDIplwSezk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/PC/Desktop/module4/UploadFileBaiHat/src/main/java/com/example/uploadfilebaihat/config"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\Desktop\module4\UploadFileBaiHat\src\main\java\com\example\uploadfilebaihat\config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.73" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="Gradle : com.example : UploadFileBaiHat-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Gradle___com_example___UploadFileBaiHat_1_0_SNAPSHOT_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.example : UploadFileBaiHat-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5ced7cc-95c1-46c2-bf9d-027ca58d54eb" name="Changes" comment="" />
+      <created>1689335041616</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689335041616</updated>
+      <workItem from="1689335043131" duration="1088000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
