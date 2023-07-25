@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Title</title>
+</head>
+<body>
+<h1 style="text-align: center">Information Blog</h1>
+<form method="post" th:object ="${blog}" th:action="@{/edit}" >
+  <div class="form-group">
+    <label class="form-check-label" >ID</label>
+    <input type="text" readonly class="form-control" name="id" th:field="*{id}">
+  </div>
+  <div class="form-group">
+    <label >Author</label>
+    <input type="text" class="form-control" th:field="*{author}">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Content_Blog</label>
+    <input type="text" class="form-control" id="exampleInputPassword1" th:field="*{content_blog}">
+  </div>
+  <button type="submit" class="btn btn-success">Submit</button>
+  <a href="/" class="btn btn-primary">Cancel</a>
+</form>
+</body>
+</html>

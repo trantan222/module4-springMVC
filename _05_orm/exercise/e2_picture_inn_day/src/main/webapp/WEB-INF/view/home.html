@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    img {
+      width: 25%;
+      height: 25%;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 25px;
+      border-collapse: collapse;
+      border: 1px solid;
+    }
+
+    th {
+      background: gray;
+    }
+
+    td {
+      border: 1px solid red;
+    }
+
+    td:last-child {
+      width: 10%;
+      text-align: center;
+    }
+
+    label {
+      display: inline-block;
+      width: 100px
+    }
+  </style>
+</head>
+<body>
+<form action="/" method="post" th:object="${comment}">
+  <div>
+    <input type="hidden" name="picture.id" th:value="${picture.id}">
+    <h2 th:text="${picture.name}"></h2>
+    <input id="name" type="hidden" name="picture.name" th:value="${picture.name}">
+    <!--<input id="name" type="text" th:field="*{picture.name}">-->
+    <input id="url" type="hidden" name="picture.url" th:value="${picture.url}">
+    <h3 th:text="${picture.displayDate}"></h3>
+    <input id="date" type="hidden" name="picture.displayDate" th:value="${picture.displayDate}">
+    <img id="img-of-the-day" th:src="${picture.url}" alt="picture from nasa">
+
+    <fieldset>
+      <legend>Your comment to this picture</legend>
+      <div>
+        <label>Vote</label>
+        <select name="vote" th:field="*{vote}">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div>
+        <label>Author</label>
+        <input type="text" name="author" th:field="*{author}">
+      </div>
+      <div>
+        <label>Feedback</label>
+        <input type="text" name="feedback" th:field ="*{feedback}">
+      </div>
+      <button type="submit">Comment</button>
+    </fieldset>
+  </div>
+</form>
+
+<table th:unless="${#lists.isEmpty(picture.comments)}">
+  <thead>
+  <th>Vote</th>
+  <th>Feedback</th>
+  <th>Author</th>
+  <th>Liked</th>
+  <th>Action</th>
+  </thead>
+  <tbody>
+  <tr th:each="c: ${picture.comments}">
+    <td  hidden th:text="${c.id}"/>
+    <td th:text="${c.vote}"/>
+    <td th:text="${c.feedback}"/>
+    <td th:text="${c.author}"/>
+    <td>[[${c.liked}]] Liked</td>
+    <td><a th:href="@{/__${c.id}__}">Click to Like</a></td>
+  </tr>
+  </tbody>
+</table>
+<script>
+  const name = document.getElementById('name');
+  if (name.value === '') {
+    let query = 'https://api.nasa.gov/planetary/apod?api_key=rJGbUlIUW9oBv1Q9kAFdAOC5vategvQjEHsExr3Z                                       ';
+    let request = new XMLHttpRequest();
+    request.open('GET', query);
+    request.onload = function () {
+      if (request.status === 200) {
+        let response = JSON.parse(request.responseText);
+        document.querySelector("h2").textContent = response.title;
+        name.value = response.title;
+        document.getElementById("url").value = response.url;
+        document.querySelector("h3").textContent = response.date;
+        document.getElementById("date").value = response.date;
+        document.getElementById("img-of-the-day").setAttribute('src', response.url);
+      }
+    };
+    request.send();
+  }
+</script>
+</body>
+</html>

@@ -24,4 +24,5 @@ public String upload(@ModelAttribute("baiHat") BaiHat baiHat,Model model){
         return "view";
 }
 
+
 }

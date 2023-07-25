@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d9ab070-3de1-4294-8b35-60eb883dbf47" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e1_music/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e1_music/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e1_music/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e1_music/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e1_music/src/main/java/com/example/e1_music/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e1_music/src/main/java/com/example/e1_music/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e1_music/src/main/java/com/example/e1_music/controller/MusicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e1_music/src/main/java/com/example/e1_music/model/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e1_music/src/main/java/com/example/e1_music/model/MusicForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e1_music/src/main/java/com/example/e1_music/repo/MusicDAOimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e1_music/src/main/java/com/example/e1_music/repo/MusicRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e1_music/src/main/java/com/example/e1_music/service/MusicImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e1_music/src/main/java/com/example/e1_music/service/MusicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e1_music/src/main/java/com/example/e1_music/util/ConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e1_music/src/main/resources/hibernate.conf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e1_music/src/main/resources/upload_file.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e1_music/src/main/webapp/WEB-INF/view/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e1_music/src/main/webapp/WEB-INF/view/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e1_music/src/main/webapp/WEB-INF/view/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/src/main/java/com/example/e2_picture_in_day/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/src/main/java/com/example/e2_picture_in_day/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/src/main/java/com/example/e2_picture_in_day/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/src/main/java/com/example/e2_picture_in_day/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/src/main/java/com/example/e2_picture_in_day/model/Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/src/main/java/com/example/e2_picture_in_day/repository/CommentRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/src/main/java/com/example/e2_picture_in_day/repository/ConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/src/main/java/com/example/e2_picture_in_day/repository/PictureRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/src/main/resources/hibernate.conf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/src/main/webapp/WEB-INF/view/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_in_day/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/src/main/java/com/example/e2_picture_inn_day/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/src/main/java/com/example/e2_picture_inn_day/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/src/main/java/com/example/e2_picture_inn_day/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/src/main/java/com/example/e2_picture_inn_day/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/src/main/java/com/example/e2_picture_inn_day/model/Picture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/src/main/java/com/example/e2_picture_inn_day/repository/CommentRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/src/main/java/com/example/e2_picture_inn_day/repository/ConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/src/main/java/com/example/e2_picture_inn_day/repository/PictureRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/src/main/resources/hibernate.conf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/src/main/webapp/WEB-INF/view/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_05_orm/exercise/e2_picture_inn_day/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../_05_orm/practice/UploadBaiHat/src/main/java/com/example/uploadbaihat/controller/BaiHatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_05_orm/practice/UploadBaiHat/src/main/java/com/example/uploadbaihat/controller/BaiHatController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2T0lUknMueGnF3xFebrY1aIyVGT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "spring.boot"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.73" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="Gradle : com.example : Blog-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Gradle___com_example___Blog_1_0_SNAPSHOT_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.example : Blog-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d9ab070-3de1-4294-8b35-60eb883dbf47" name="Changes" comment="" />
+      <created>1690187900565</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690187900565</updated>
+      <workItem from="1690187901934" duration="491000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
