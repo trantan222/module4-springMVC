@@ -4,100 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8de052c2-3968-48a9-8e93-6dd4fc2c852f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../e1_music/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e1_music/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e1_music/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e1_music/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e1_music/src/main/java/com/example/e1_music/config/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e1_music/src/main/java/com/example/e1_music/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e1_music/src/main/java/com/example/e1_music/controller/MusicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e1_music/src/main/java/com/example/e1_music/model/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e1_music/src/main/java/com/example/e1_music/model/MusicForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e1_music/src/main/java/com/example/e1_music/repo/MusicDAOimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e1_music/src/main/java/com/example/e1_music/repo/MusicRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e1_music/src/main/java/com/example/e1_music/service/MusicImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e1_music/src/main/java/com/example/e1_music/service/MusicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e1_music/src/main/java/com/example/e1_music/util/ConnectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e1_music/src/main/resources/hibernate.conf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e1_music/src/main/resources/upload_file.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e1_music/src/main/webapp/WEB-INF/view/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e1_music/src/main/webapp/WEB-INF/view/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../e1_music/src/main/webapp/WEB-INF/view/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/e2_picture_inn_day/config/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/e2_picture_inn_day/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/e2_picture_inn_day/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/e2_picture_inn_day/model/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/e2_picture_inn_day/model/Picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/e2_picture_inn_day/repository/CommentRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/e2_picture_inn_day/repository/ConnectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/e2_picture_inn_day/repository/PictureRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.conf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/Blog1/src/main/java/com/example/blog1/config/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/Blog1/src/main/java/com/example/blog1/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/Blog1/src/main/java/com/example/blog1/controller/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/Blog1/src/main/java/com/example/blog1/model/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/Blog1/src/main/java/com/example/blog1/repository/BlogRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/Blog1/src/main/java/com/example/blog1/repository/IBlogRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/Blog1/src/main/java/com/example/blog1/service/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/Blog1/src/main/java/com/example/blog1/service/IBlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/Blog1/src/main/webapp/WEB-INF/view/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/Blog1/src/main/webapp/WEB-INF/view/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/Blog1/src/main/webapp/WEB-INF/view/error404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/Blog1/src/main/webapp/WEB-INF/view/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/src/main/java/com/example/e2_picture_inday/Repositoryy/IComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/src/main/java/com/example/e2_picture_inday/config/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/src/main/java/com/example/e2_picture_inday/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/src/main/java/com/example/e2_picture_inday/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/src/main/java/com/example/e2_picture_inday/model/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/src/main/java/com/example/e2_picture_inday/model/Picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/src/main/java/com/example/e2_picture_inday/repository/CommentRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/src/main/java/com/example/e2_picture_inday/repository/ConnectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/src/main/java/com/example/e2_picture_inday/repository/PictureRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_06_jpa/excercise/e2_picture_inday/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_07_data_repository/excercise/Blog/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_07_data_repository/excercise/Blog/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_07_data_repository/excercise/Blog/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_07_data_repository/excercise/Blog/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_07_data_repository/excercise/BlogSpringBoot/src/main/java/com/example/blogspringboot/BlogSpringBootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_07_data_repository/excercise/BlogSpringBoot/src/main/java/com/example/blogspringboot/controller/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_07_data_repository/excercise/BlogSpringBoot/src/main/java/com/example/blogspringboot/model/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_07_data_repository/excercise/BlogSpringBoot/src/main/java/com/example/blogspringboot/model/category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_07_data_repository/excercise/BlogSpringBoot/src/main/java/com/example/blogspringboot/repository/IBlog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_07_data_repository/excercise/BlogSpringBoot/src/main/java/com/example/blogspringboot/repository/ICateGory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_07_data_repository/excercise/BlogSpringBoot/src/main/java/com/example/blogspringboot/service/BlogImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_07_data_repository/excercise/BlogSpringBoot/src/main/java/com/example/blogspringboot/service/DAOCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_07_data_repository/excercise/BlogSpringBoot/src/main/java/com/example/blogspringboot/service/IServiceBlog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_07_data_repository/excercise/BlogSpringBoot/src/main/java/com/example/blogspringboot/service/ServiceCategoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_07_data_repository/excercise/BlogSpringBoot/src/main/resources/templates/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice/UploadBaiHat/src/main/java/com/example/uploadbaihat/controller/BaiHatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../practice/UploadBaiHat/src/main/java/com/example/uploadbaihat/controller/BaiHatController.java" afterDir="false" />
-    </list>
+    <list default="true" id="8de052c2-3968-48a9-8e93-6dd4fc2c852f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -246,6 +153,7 @@
       <workItem from="1690181939517" duration="6439000" />
       <workItem from="1690189208620" duration="966000" />
       <workItem from="1690277803855" duration="832000" />
+      <workItem from="1690336513251" duration="101000" />
     </task>
     <servers />
   </component>
