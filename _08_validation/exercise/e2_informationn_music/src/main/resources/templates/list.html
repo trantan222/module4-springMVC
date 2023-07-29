@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Tan1</title>
+</head>
+<body>
+<h1 style="text-align: center">List User</h1>
+<a href="/music/create" role="button" class="btn btn-primary">Create</a>
+<br>
+<table class="table">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>Id</th>
+        <th>Name Music</th>
+        <th>Musican</th>
+        <th>type</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="music,Status :${musics}">
+        <td th:text="${Status.count}"></td>
+        <td th:text="${music.id}"></td>
+        <td th:text="${music.name_Music}"></td>
+        <td th:text="${music.musican}"></td>
+        <td th:text="${music.type}"></td>
+        <td><a th:href="@{/music/edit/__${music.id}__}" class="btn btn-warning">Edit</a></td>
+    </tr>
+    </tbody>
+</table>
+<a th:if="${musics.hasPrevious()}" th:href="@{/music(page=${musics.number-1})}"  class="previous">Previous</a>
+<span th:text="${musics.number+1}"></span>/
+<span th:text="${musics.totalPages}"></span>
+<a th:if="${musics.hasNext()}"th:href="@{/music(page=${musics.number+1})}" class="next">Next</a>
+</body>
+</html>
