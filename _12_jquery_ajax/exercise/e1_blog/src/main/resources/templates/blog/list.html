@@ -28,7 +28,7 @@
     <div class="col-md-6">
         <label>Find Blog</label>
         <input id="name">
-        <button class="btn btn-primary" id="btn-search" onclick="">Search</button>
+        <button class="btn btn-primary" id="btn-search" name="author">Search</button>
     </div>
 </div>
 
@@ -116,12 +116,49 @@
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
 <script>
+    let     pageNum     =   0;
+    let     pageSize    =   2;
+    let     pageTotal   =   0;
+
 $("#btn-search").click(function (){
     let name = $("#name").val();
     $.ajax({
-
+        contentType : "application/json",
+        method : "GET",
+        dataType : "json",
+        data : JSON.stringify(name),
+        url : `blogs/search/`,
+        success : console.log('success'),
+        complete : function (){
+            display();
+        }
     })
 })
+    function display() {
+        let content = "";
+        $.ajax({
+            type: "GET",
+            url: "blogs",
+            success: function (data) {
+                console.log(data)
+                for (let i = 0; i < data.length; i++) {
+                    content += `<tr>
+                                <td>${i+1}</td>
+                                <td>${data[i].id}</td>
+                                <td>${data[i].name}</td>
+                                <td>${data[i].gender}</td>
+                                <td>${data[i].classRoom.name}</td>
+                                </tr>`
+                }
+                $("#content").html(content);
+            }
+        })
+    }
+    function getSmartphone(blog) {
+        return `<tr><td >${blog.id}</td><td >${blog.author}</td><td >${blog.email}</td>
+<td >${blog.content}</td><td>${blog.date}</td><td>${blog.category.name}</td>` +
+            `<td><a class="deleteSmartphone">Delete</a></td></tr>`;
+    }
 </script>
 
 </html>
