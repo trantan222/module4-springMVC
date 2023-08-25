@@ -9,6 +9,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class ServiceSan_Bong implements IServiceSan_Bong{
     final
@@ -18,6 +20,11 @@ public class ServiceSan_Bong implements IServiceSan_Bong{
         this.iRepoSan_bong = iRepoSan_bong;
     }
 
+
+    @Override
+    public List<San_bong> findALl() {
+        return iRepoSan_bong.findAll();
+    }
 
     @Override
     public Page<San_bong> findAllByNameContaining(Pageable pageable, String name) {

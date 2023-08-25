@@ -67,70 +67,56 @@ public class San_Bong_Controller {
         return "stadium/list";
     }
 
-    @GetMapping("/searchname")
-    public String searchName(@RequestParam("name") Optional<String> OName,
-                             @PageableDefault(size = 2) Pageable pageable,
-                             Model model) {
-        String nameValue = "";
-        if (OName.isPresent()) {
-            nameValue = OName.get();
-        }
-        Page<San_bong> san_bongPage = iServiceSan_bong.findAllByNameContaining(pageable, nameValue);
-        List<Khu_vuc> khu_vucs = iRepoKhuVuc.findAll();
-        List<Khung_gio> khung_gios = iRepoKhung_gio.findAll();
-        List<Khach_hang> khach_hangs = iRepoKhachHang.findAll();
-        List<Loai_san> loaiSans = iRepoLoaiSan.findAll();
-        model.addAttribute("stadiums", san_bongPage);
-        model.addAttribute("type", loaiSans);
-        model.addAttribute("areas", khu_vucs);
-        model.addAttribute("hours", khung_gios);
-        model.addAttribute("customer", khach_hangs);
-        return "/stadium/list";
-    }
-
-    @GetMapping("/searchkhuvuc")
-    public String searchKhuVuc(@RequestParam("khuvuc") Khu_vuc khu_vuc,
-                               @PageableDefault(size = 2) Pageable pageable,
-                               Model model) {
-        Page<San_bong> san_bongPage = iServiceSan_bong.findKhuVuc(pageable, khu_vuc);
-        List<Khu_vuc> khu_vucs = iRepoKhuVuc.findAll();
-        List<Khung_gio> khung_gios = iRepoKhung_gio.findAll();
-        List<Khach_hang> khach_hangs = iRepoKhachHang.findAll();
-        List<Loai_san> loaiSans = iRepoLoaiSan.findAll();
-        model.addAttribute("type", loaiSans);
-        model.addAttribute("stadiums", san_bongPage);
-        model.addAttribute("areas", khu_vucs);
-        model.addAttribute("hours", khung_gios);
-        model.addAttribute("customer", khach_hangs);
-        return "/stadium/list";
-    }
-
-    @GetMapping("/searchloaisan")
-    public String searchType(@RequestParam("loaisan") Loai_san loai_san,
-                             @PageableDefault(size = 2) Pageable pageable,
-                             Model model) {
-        Page<San_bong> san_bongPage = iServiceSan_bong.findLoaiSan(pageable, loai_san);
-        List<Khu_vuc> khu_vucs = iRepoKhuVuc.findAll();
-        List<Khung_gio> khung_gios = iRepoKhung_gio.findAll();
-        List<Khach_hang> khach_hangs = iRepoKhachHang.findAll();
-        List<Loai_san> loaiSans = iRepoLoaiSan.findAll();
-        model.addAttribute("type", loaiSans);
-        model.addAttribute("stadiums", san_bongPage);
-        model.addAttribute("areas", khu_vucs);
-        model.addAttribute("hours", khung_gios);
-        model.addAttribute("customer", khach_hangs);
-        return "/stadium/list";
-    }
-
     @GetMapping("/searchAll")
-    public String searchAll(@RequestParam("loaisann") Loai_san loai_san,
-                            @RequestParam("khuvucc") Khu_vuc khu_vuc,
+    public String searchAll(@RequestParam(value = "loaisann", defaultValue = "") Loai_san loai_san,
+                            @RequestParam(value = "khuvucc", defaultValue = "") Khu_vuc khu_vuc,
                             @RequestParam("namee") Optional<String> OName,
-                            @PageableDefault(size = 2) Pageable pageable,
+                            @RequestParam(defaultValue = "0") int page,
+                            @RequestParam(defaultValue = "3") int size,
                             Model model) {
         String nameValue = "";
         if (OName.isPresent()) {
             nameValue = OName.get();
+        }
+        Pageable pageable = PageRequest.of(page, size);
+        if (loai_san == null && khu_vuc == null) {
+            Page<San_bong> san_bongPage = iServiceSan_bong.findAllByNameContaining(pageable, nameValue);
+            List<Khu_vuc> khu_vucs = iRepoKhuVuc.findAll();
+            List<Khung_gio> khung_gios = iRepoKhung_gio.findAll();
+            List<Khach_hang> khach_hangs = iRepoKhachHang.findAll();
+            List<Loai_san> loaiSans = iRepoLoaiSan.findAll();
+            model.addAttribute("stadiums", san_bongPage);
+            model.addAttribute("type", loaiSans);
+            model.addAttribute("areas", khu_vucs);
+            model.addAttribute("hours", khung_gios);
+            model.addAttribute("customer", khach_hangs);
+            return "/stadium/list";
+        }
+        if (loai_san == null && nameValue == "") {
+            Page<San_bong> san_bongPage = iServiceSan_bong.findKhuVuc(pageable, khu_vuc);
+            List<Khu_vuc> khu_vucs = iRepoKhuVuc.findAll();
+            List<Khung_gio> khung_gios = iRepoKhung_gio.findAll();
+            List<Khach_hang> khach_hangs = iRepoKhachHang.findAll();
+            List<Loai_san> loaiSans = iRepoLoaiSan.findAll();
+            model.addAttribute("type", loaiSans);
+            model.addAttribute("stadiums", san_bongPage);
+            model.addAttribute("areas", khu_vucs);
+            model.addAttribute("hours", khung_gios);
+            model.addAttribute("customer", khach_hangs);
+            return "/stadium/list";
+        }
+        if (khu_vuc == null && nameValue == "") {
+            Page<San_bong> san_bongPage = iServiceSan_bong.findLoaiSan(pageable, loai_san);
+            List<Khu_vuc> khu_vucs = iRepoKhuVuc.findAll();
+            List<Khung_gio> khung_gios = iRepoKhung_gio.findAll();
+            List<Khach_hang> khach_hangs = iRepoKhachHang.findAll();
+            List<Loai_san> loaiSans = iRepoLoaiSan.findAll();
+            model.addAttribute("type", loaiSans);
+            model.addAttribute("stadiums", san_bongPage);
+            model.addAttribute("areas", khu_vucs);
+            model.addAttribute("hours", khung_gios);
+            model.addAttribute("customer", khach_hangs);
+            return "/stadium/list";
         }
         Page<San_bong> san_bongPage = iServiceSan_bong.findThreeField(pageable, nameValue, khu_vuc, loai_san);
         List<Khu_vuc> khu_vucs = iRepoKhuVuc.findAll();
@@ -144,14 +130,16 @@ public class San_Bong_Controller {
         model.addAttribute("customer", khach_hangs);
         return "/stadium/list";
     }
+
     @GetMapping("/delete/{id}")
-    public String delete(@PathVariable("id") Long id,Model model){
+    public String delete(@PathVariable("id") Long id, Model model) {
         iServiceSan_bong.delete(id);
         return "redirect:/stadiums";
     }
+
     @GetMapping("/create")
-    public String showCreate(Model model){
-        model.addAttribute("stadium",new San_bongDto());
+    public String showCreate(Model model) {
+        model.addAttribute("stadium", new San_bongDto());
         List<Khu_vuc> khu_vucs = iRepoKhuVuc.findAll();
         List<Khung_gio> khung_gios = iRepoKhung_gio.findAll();
         List<Khach_hang> khach_hangs = iRepoKhachHang.findAll();
@@ -162,11 +150,12 @@ public class San_Bong_Controller {
         model.addAttribute("customer", khach_hangs);
         return "/stadium/create";
     }
+
     @PostMapping("/create")
     public String createNew(@Valid @ModelAttribute("stadium") San_bongDto san_bongDto,
-                            BindingResult bindingResult, RedirectAttributes redirectAttributes,Model model){
+                            BindingResult bindingResult, RedirectAttributes redirectAttributes, Model model) {
 
-        if(bindingResult.hasErrors()){
+        if (bindingResult.hasErrors()) {
             List<Khu_vuc> khu_vucs = iRepoKhuVuc.findAll();
             List<Khung_gio> khung_gios = iRepoKhung_gio.findAll();
             List<Loai_san> loaiSans = iRepoLoaiSan.findAll();
@@ -176,9 +165,21 @@ public class San_Bong_Controller {
             return "/stadium/create";
         }
         San_bong san_bong = new San_bong();
-        BeanUtils.copyProperties(san_bongDto,san_bong);
+        for (San_bong san_bong1 : iServiceSan_bong.findALl()) {
+            if (san_bong1.getName().equals(san_bongDto.getName())) {
+                redirectAttributes.addFlashAttribute("mess", "tên không được trùng nhau");
+                List<Khu_vuc> khu_vucs = iRepoKhuVuc.findAll();
+                List<Khung_gio> khung_gios = iRepoKhung_gio.findAll();
+                List<Loai_san> loaiSans = iRepoLoaiSan.findAll();
+                model.addAttribute("type", loaiSans);
+                model.addAttribute("areas", khu_vucs);
+                model.addAttribute("hours", khung_gios);
+                return "redirect:/stadiums/create";
+            }
+        }
+        BeanUtils.copyProperties(san_bongDto, san_bong);
         iServiceSan_bong.save(san_bong);
-        redirectAttributes.addFlashAttribute("mess","add success!!!");
+        redirectAttributes.addFlashAttribute("mess", "add success!!!");
         return "redirect:/stadiums";
     }
 
