@@ -14,12 +14,12 @@
     <input type="text" class="form-control" hidden th:field="*{id}">
     <div class="form-group">
         <label>Tên</label>
-        <input type="text" class="form-control" th:field="*{name}">
+        <input type="text" class="form-control" th:field="*{name}" required>
         <small style="color: red" th:if="${#fields.hasErrors('name')}" th:errors ="*{name}"></small><br>
     </div>
     <div class="form-group">
         <label for="1">Địa chỉ</label>
-        <input type="text" class="form-control" id="1" th:field="*{address}">
+        <input type="text" class="form-control" id="1" th:field="*{address}" required>
         <small style="color: red" th:if="${#fields.hasErrors('address')}" th:errors ="*{address}"></small><br>
     </div>
     <div class="form-group">
@@ -40,8 +40,8 @@
     </div>
     <div class="form-group">
         <label>Khung Giờ Cho Thuê</label>
-        <select th:field="*{khungGio.id}" onchange="my()" id="hour">
-            <option th:each="hour : ${hours}" th:value="${hour.id}"
+        <select th:field="*{khungGio.id}" onchange="my()" id="hour" th:value="*{id}">
+            <option th:each="hour : ${hours}" th:value="${hour.id} "
                     th:text="${hour.name}">
             </option>
             <p id="demo"></p>
@@ -60,8 +60,9 @@
 </body>
 <script>
     // function my(){
-    //     var x = document.getElementById("hour").value;
-    //     document.getElementById("demo").innerHTML = "cost : " + x;
+    //     let x = document.getElementById("hour").value;
+    //     console.log(x);
+    //     document.getElementById("demo").innerText = "cost : " + x;
     // }
 </script>
 </html>

@@ -55,5 +55,14 @@ public class San_bongDto implements Validator {
     public void validate(Object target, Errors errors) {
 
     }
-
+//    @Size(message = "không đúng độ dài quy định",min = 5,max = 45)
+//    private String firstName;
+//    @Size(message = "không đúng độ dài quy định",min = 5,max = 45)
+//    private String lastName;
+//    @Pattern(regexp = "0\\d{9}",message = "không đúng định dạng của số điện thoại")
+//    private String phoneNumber;
+//    @Min(value = 18,message = "Không đủ tuổi quy định")
+//    private int age;
+//    @Email(message = "Email không hợp lệ")
+//    private String email;
 }

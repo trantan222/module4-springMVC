@@ -16,5 +16,4 @@ public interface IRepoSan_Bong extends JpaRepository<San_bong,Long> {
     Page<San_bong> findAllByNameContainingAndKhuVucAndLoaiSan(Pageable pageable,String name,Khu_vuc khu_vuc,Loai_san loai_san);
 
 
-
 }
