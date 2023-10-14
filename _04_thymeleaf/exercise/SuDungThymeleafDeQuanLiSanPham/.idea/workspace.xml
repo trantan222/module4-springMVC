@@ -5,73 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1bfed26-2c73-4b04-b4d2-3f56bc073567" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../FormYTe/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FormYTe/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FormYTe/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FormYTe/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FormYTe/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FormYTe/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FormYTe/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FormYTe/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FormYTe/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FormYTe/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FormYTe/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FormYTe/src/main/java/com/example/formyte/controller/KhaiBaoYTe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FormYTe/src/main/java/com/example/formyte/model/ToKhai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FormYTe/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FormYTe/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FormYTe/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FormYTe/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FormYTe/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sudungthymeleafdequanlisanpham/config/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sudungthymeleafdequanlisanpham/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sudungthymeleafdequanlisanpham/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sudungthymeleafdequanlisanpham/model/product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sudungthymeleafdequanlisanpham/repo/ProductImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sudungthymeleafdequanlisanpham/repo/RepoProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sudungthymeleafdequanlisanpham/service/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sudungthymeleafdequanlisanpham/service/ServiceProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/14prm.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/14prmaxgold.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/ip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/iphone14prmaxpink.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/iphone14promax.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/src/main/java/com/example/uploadbaihat/controller/BaiHatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/src/main/java/com/example/uploadbaihat/model/BaiHat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/src/main/webapp/WEB-INF/views/upload.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/src/main/webapp/WEB-INF/views/view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadBaiHat/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadFileBaiHat/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadFileBaiHat/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadFileBaiHat/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadFileBaiHat/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadFileBaiHat/src/main/java/com/example/uploadfilebaihat/config/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UploadFileBaiHat/src/main/java/com/example/uploadfilebaihat/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/controller/SettingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/com/example/demo1/model/Setting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/WEB-INF/views/setting.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/WEB-INF/views/view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exam/Exam_Question/src/main/java/com/example/demo/controller/ControllerQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exam/Exam_Question/src/main/java/com/example/demo/controller/ControllerQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exam/Exam_Question/src/main/java/com/example/demo/repository/IQuestionRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exam/Exam_Question/src/main/java/com/example/demo/repository/IQuestionRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exam/Exam_Question/src/main/java/com/example/demo/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exam/Exam_Question/src/main/java/com/example/demo/service/QuestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../exam/Exam_Question/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../exam/Exam_Question/src/main/resources/templates/list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +30,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -113,17 +50,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/Desktop/module4/SuDungThymeleafDeQuanLiSanPham/src/main/webapp/img&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;39e4310f0e05e75e434f60b09fcb1147&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/PC/Desktop/module4/_04_thymeleaf/exercise/SuDungThymeleafDeQuanLiSanPham",
+    "spring.configuration.checksum": "39e4310f0e05e75e434f60b09fcb1147"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\PC\Desktop\module4\SuDungThymeleafDeQuanLiSanPham\src\main\webapp\img" />
@@ -237,6 +174,7 @@
       <workItem from="1689215721853" duration="594000" />
       <workItem from="1689295892640" duration="2364000" />
       <workItem from="1689335276420" duration="11000" />
+      <workItem from="1695381445548" duration="362000" />
     </task>
     <servers />
   </component>

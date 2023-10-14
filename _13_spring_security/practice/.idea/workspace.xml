@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9cf01a22-5fb8-4b85-abb2-6703132e1821" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../exam/Exam_Question/src/main/java/com/example/demo/controller/ControllerQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../exam/Exam_Question/src/main/java/com/example/demo/controller/ControllerQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam/Exam_Question/src/main/java/com/example/demo/repository/IQuestionRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../exam/Exam_Question/src/main/java/com/example/demo/repository/IQuestionRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam/Exam_Question/src/main/java/com/example/demo/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../exam/Exam_Question/src/main/java/com/example/demo/service/QuestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exam/Exam_Question/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../exam/Exam_Question/src/main/resources/templates/list.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2VQKOuQOZoSjvOKQoxsUwx4tiGZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/PC/Desktop/module4/_13_spring_security/practice/demo1",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cf01a22-5fb8-4b85-abb2-6703132e1821" name="Changes" comment="" />
+      <created>1694762834573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694762834573</updated>
+      <workItem from="1694762835767" duration="134000" />
+      <workItem from="1694833371550" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

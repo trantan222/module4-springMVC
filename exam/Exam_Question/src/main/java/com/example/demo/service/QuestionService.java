@@ -50,7 +50,7 @@ public class QuestionService implements IQuestionService{
 
     @Override
     public Page<QuestionContent> findAllByTitleContainingAndType_Name(Pageable pageable, String title, String type) {
-        return iQuestionRepo.findByTitleContainingAndType_Name(pageable, title, type);
+        return iQuestionRepo.findByTitleContainingAndType_NameContaining(pageable, title, type);
     }
 
     @Override

@@ -18,6 +18,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.validation.Valid;
@@ -36,23 +37,22 @@ public class ControllerQuestion {
         this.iTypeRepo = iTypeRepo;
     }
 
-    @GetMapping()
-    public String show_List(@PageableDefault(size = 2,page = 0) Pageable page,
-                            @RequestParam(name = "title",defaultValue = "",required = false) String title,
-                            @RequestParam(name = "type",defaultValue = "",required = false) String type_name,
-                            Model model
+    @GetMapping("")
+    public ModelAndView show_List(@PageableDefault(size = 3,page = 0) Pageable pageable,
+                                  @RequestParam(name = "title",defaultValue = "",required = false) String title,
+                                  @RequestParam(name = "type",defaultValue = "",required = false) String type_name
     ) {
 
-        Pageable pageable = PageRequest.of(page.getPageNumber(), page.getPageSize(),Sort.by("dateCreated").ascending());
+        pageable = PageRequest.of(pageable.getPageNumber(), pageable.getPageSize(),Sort.by("dateCreated").ascending());
 //        Page<QuestionContent> questionPage =iQuestionService.findAllByTitleContainingAndType_Name(pageable,title,type_name)
         Page<QuestionContent> questionPage =iQuestionService.findAllByTitleContainingAndType_Name(pageable,title,type_name);
-//        Page<QuestionContent> questionPage =iQuestionService.findAllBYTitle(pageable,title);
         List<Type> types = iTypeRepo.findAll();
-        model.addAttribute("types",types);
-        model.addAttribute("title",title);
-        model.addAttribute("type_name",type_name);
-        model.addAttribute("questions",questionPage);
-        return "list";
+        ModelAndView modelAndView = new ModelAndView("/list");
+        modelAndView.addObject("types",types);
+        modelAndView.addObject("title",title);
+        modelAndView.addObject("type_name",type_name);
+        modelAndView.addObject("questions",questionPage);
+        return modelAndView;
     }
     @GetMapping("/create")
     public String showCreate(Model model) {

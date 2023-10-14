@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 
 public interface IQuestionRepo extends JpaRepository<QuestionContent,Long> {
     Page<QuestionContent> findAllByTitleContaining(Pageable pageable,String title);
-    Page<QuestionContent> findByTitleContainingAndType_Name(Pageable pageable, String title, String type);
+    Page<QuestionContent> findByTitleContainingAndType_NameContaining(Pageable pageable, String title, String type);
     Page<QuestionContent> findAllByType_Name(Pageable pageable, String type);
     Page<QuestionContent> findAllBy(Pageable pageable);
 }

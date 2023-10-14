@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<h1 style="text-align: center;color: yellow; " >Employee</h1>
+<!--<form  th:object="${product}"  th:action="@{/search}"  novalidate="novalidate"   style="margin-left: 700px">-->
+<!--  <input type="text" placeholder="input name here" name="search" >-->
+<!--  <button class="btn btn-secondary" type="submit">Search</button>-->
+<!--</form>-->
+<!--<a href="/create" role="button"  class="btn btn-primary "style="margin-bottom: 10px;margin-left: 5px">Create</a>-->
+<!--<div class="notify">-->
+<!--  <div th:if="${mess}" style="color: red">-->
+<!--    <span th:text="${mess}"></span>-->
+<!--  </div>-->
+<!--</div>-->
+<table class="table table-hover" >
+  <thead class="thead-dark">
+  <tr>
+    <th>#</th>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Date</th>
+    <th>Address</th>
+    <th>PhoneNumber</th>
+    <th>Position</th>
+    <th>Detail</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="e,status:${employees}">
+    <td th:text="${status.count}"></td>
+    <td th:text="${e.id}"></td>
+<!--    <td th:text="${e.name}"></td>-->
+<!--    <td th:text="${e.}"></td>-->
+<!--    <td th:text="${product.describe}"></td>-->
+<!--    <td th:text="${product.producer}"></td>-->
+<!--    <td><a th:href="@{{id}/view(id=${product.getId()})}" role="button" class="btn btn-info">View</a></td>-->
+  </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
